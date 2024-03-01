@@ -1,0 +1,291 @@
+body{
+		overflow:scroll;
+		overflow-x:hidden;	
+}
+ .containerLogin{
+        width: 100%;
+		flex-direction:row;
+}
+.containerAdjust{
+	position:relative;
+		height:100%;
+		display:flex;
+		flex-direction:row;
+}
+.inputContainer{
+	height:auto;
+	width:85%;
+	padding:4% 4% 4% 4%;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+.inputContainer input{
+	width:100%;
+    background-color: none;
+    border: none;
+    border-bottom: 3px solid #836FFF;
+	font-size:1.2em;
+}
+.btnContainer input{
+        font-size: 2vmax;
+}
+
+.containerTitulo{
+        top:0%;
+        height: 35vh;
+        width: 100%;
+        background-color: #211951;
+		display:flex;
+		justify-content:center;
+        
+}
+.containerTitulo img{
+	object-fit:contain;
+	min-width:80%;
+	min-height:90%;
+	max-width:80%;
+	max-height:90%;
+}
+ .containerCad{
+		width:100%;
+		display:flex;
+		justify-content:flex-start;
+		align-content:center;
+		align-items:center;
+		color:211951;
+ }
+.cadContainer{
+		width:100%;       
+		height:100%;
+		padding:0;
+		font-size:1rem;
+		display:flex;
+		flex-direction:column;
+		justify-content:flex-start;
+		align-content:center;
+		align-items:center;
+		color: #211951;
+}
+.cadContainer h1{
+	color: #211951;
+}
+h1{
+	font-size:2em;
+	text-align:center;
+}
+select{
+    background-color: inherit;
+    font-family: "Orbitron", sans-serif;  color: #836FFF;
+	border:none;
+    border-bottom: 3px solid #836FFF;
+    font-size: 1.8vw;
+	text-align: left;
+	text-indent: .5em;
+	width:100%;
+	cursor:pointer;
+	}
+option{
+	border:none;
+	outline:none;
+    font-family: "Orbitron", sans-serif;  
+	color: #836FFF;
+    background-color: inherit;
+	cursor:pointer;
+}
+.doubleContainer{
+	display:flex;
+	flex-direction:row;
+	}
+.doubleContainer select{
+	width:20%;
+}
+.doubleContainer input{
+	margin-left:5%;
+	width:75%;
+}
+.radioContainer{
+	display:flex;
+	justify-content:flex-start;
+	text-align:left;
+	flex-direction:row;
+	margin:0;
+	
+}
+.radioContainer input{
+	text-indent:0;
+	cursor:pointer;
+	background-color:red;
+	margin:0;
+}
+.planoContainer{
+	justify-content:center;
+}
+.planoContainer select{
+	text-align:center;
+	text-indent:0;
+	color:white;
+	padding: 5% 5% 5% 5%;
+	cursor:pointer;
+	border-radius: 10px;
+	background-color:black;
+	color:white;
+	border:none;
+}
+
+.pagamentoContainer h1{
+	color:#211951;
+}
+.pagamentoContainer{
+	background-color: rgb(200,200,200);
+		width:45%;
+		padding:0;
+		display:flex;
+		flex-direction:column;
+		justify-content: flex-start;
+	align-items:center;
+align-content:center;	
+}
+.textBtnContainer{
+	margin:0;
+	width:100%;
+	display:flex;
+	justify-content:flex-start;
+	
+}
+.textBtnContainer input[type="text"]{
+	color:black;
+	width:42%;
+	font-size:0.8em;
+	text-indent:0;
+	text-align:center;
+	border-bottom: 2px solid black;
+	
+}
+.textBtnContainer input[type="submit"]{
+	cursor:pointer;
+	border-radius: 10px;
+	color:white;
+	font-size:1em;
+	background-color:black;
+	text-align:center;
+	border:none;
+	text-indent:0;
+	width:40%;
+	
+}
+
+.inputContainer span{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.valoresContainer{
+	width:80%;
+	border-radius:10px;
+	background-color:white;
+
+}
+.valoresContainer span{
+	margin:0;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	color:#211951;
+	width:100%;
+}
+.valoresContainer h3{
+	margin-bottom:2%;
+	margin-top:3%;
+text-align:center;
+}
+
+#valorFinal{
+	
+	border-top: 1px solid black;
+	color:black;
+}
+h2{
+	color:#211951;
+	text-align:center;
+	font-size:1.8vw;
+}
+#parcelasContainer{
+	color:black;
+	border-bottom:2px solid black;
+	text-indent:0;
+	cursor:pointer;
+}
+.btnContainer{
+	width:70%;
+	height:5%;
+}
+.btnContainer input{
+	border:none;
+    background-color:#211951;
+    width: 100%;
+    height: 100%;
+	color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align:center;
+    font-size: 1.3vmax;
+    transition: 0.25s;
+}
+.btnContainer input:hover{
+	background-color:black;
+}
+
+.radioContainer{
+	width:70%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	align-content:center;
+	height:2.3vh;
+	font-size:1vw;
+}
+.radioContainer div{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	width:auto;
+	height:100%;
+}
+.radioContainer h4{	
+	margin:0;
+	color:#211951;
+}
+.radioContainer input{
+	height:100%;
+	width:auto;
+	}
+@media (max-width:800px){
+	
+.cadContainer{
+	font-size:2vw;
+}
+h1{
+	font-size:3vw;
+}
+
+.radioContainer{
+	width:100%;
+	font-size:1.7vw;
+	height:1.5vh;
+}
+.pagamentoContainer input{	
+	font-size:.8em;
+}
+.valoresContainer h3{
+	font-size:2vw;
+}.textBtnContainer input[type="text"]{
+	font-size:1.1vw;
+}
+.textBtnContainer input[type="submit"]{
+	font-size:1.1vw;	
+}
+
+
+
+
+}
