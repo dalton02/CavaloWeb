@@ -84,7 +84,7 @@ input:focus::placeholder {
 .btnContainer input{
     border: 2px solid #836FFF;
     background-color: inherit;
-    width: 100%;
+    width: 42%;
     height: auto;
     border-radius: 10px;
 	text-indent:0;

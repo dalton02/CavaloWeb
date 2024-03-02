@@ -23,11 +23,10 @@ function PagForm(){
             </div>
               <div className={stylesCad.inputContainer}>
                 <select id={stylesCad.parcelasContainer}>
-                    <option value="br">Numero de parcelas</option>
-                <option value="br">1X de R$120</option>
-                <option value="lgbt">2X de R$120</option>
-                <option value="m">4X de R$120</option>
-                <option value="br">12X de R$120</option>
+                <option value="1x">1X de R$120</option>
+                <option value="2x">2X de R$120</option>
+                <option value="4x">4X de R$120</option>
+                <option value="12x">12X de R$120</option>
                 </select> 
                  </div>
                  <div className={stylesCad.inputContainer}>
