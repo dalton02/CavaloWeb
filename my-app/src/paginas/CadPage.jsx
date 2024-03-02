@@ -8,7 +8,7 @@ import PagForm from '../forms/PagForm';
 function CadPage(){
 	return(
 	
-	<div>
+	<div className={stylesCad.containerAll}>
 	<div className={`${stylesCad.container} ${stylesCad.containerTitulo}`}>
 	    <img src={logo} alt="logo"/>
 	</div>
